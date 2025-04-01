@@ -23,3 +23,6 @@ set_sprite_data(0, 1, input1);
 
 ## Resources
 - Pixel art (256 value (8-bit) background maps, and associated tile maps) [https://www.systemoflevers.com/image-to-gb/]
+
+## to-do
+[] Background map and Tile map conversion tool? (need to make)
