@@ -1,6 +1,6 @@
 # treasure_island
 
-# Chris's Instructions
+## Chris's Instructions
 You can run the executable from whatever directory you download it
 from using the following.
 
@@ -20,3 +20,6 @@ input1.jpg as an example.
 
 #include "input1.c"
 set_sprite_data(0, 1, input1);
+
+## Resources
+- Pixel art (256 value (8-bit) background maps, and associated tile maps) [https://www.systemoflevers.com/image-to-gb/]
