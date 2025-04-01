@@ -1,5 +1,4 @@
 This directory contains the following tests:
 
 01 - simply testing outputs for png2asset.exec (working_project/treasure_island/png2asset.exec) on ship.png (bkg map) 
-
 02 - [tbd - unfinished] testing compatibility of 01 test outputs with .gb compilation 
