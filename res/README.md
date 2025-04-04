@@ -1,1 +1,1 @@
-# .c and .h files
+# source files (.c & .h)
