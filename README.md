@@ -26,4 +26,4 @@ set_sprite_data(0, 1, input1);
 
 ## to-do
 - [x] Test folder for testing assets/tools/methods (ordered numerically, with README)
-- [ ] Background map and Tile map conversion tool? (need to make)
+- [ ] Background map and Tile map conversion tool? (.png -> .c, or .gb -> .c)
