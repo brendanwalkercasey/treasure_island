@@ -1,8 +1,19 @@
 #include <gb/gb.h>
-#include <stdint.h>
-#include "../res/dungeon_map.h"
-#include "../res/dungeon_tiles.h"
+#include <stdio.h>
+#include "MazeSprites.c"
+#include "MazeMap.c"
+#include "Snail.c"
 
+const car blankmap[1] = {0x00};
+UINT8 playerlocation[2];
+UBYTE debug, haskey, gamerunning;
+
+void performantdelay(UINT8 numloops){
+    UINT8 i;
+    for(i = 0; i < numloops; i++){
+        wait_vbl_done();
+    }     
+}
 
 void init_gfx() {
     // Load Background tiles and then map

@@ -3,3 +3,4 @@ This directory contains the following tests:
 01 - simply testing outputs for png2asset.exec (working_project/treasure_island/png2asset.exec) on ship.png (bkg map) 
 02 - [tbd - unfinished] testing compatibility of 01 test outputs with .gb compilation
 03 - testing usability of png2gbtiles executable on ship.png and on example.png [failed to execute - installation issue?]
+04 - testing .gb output of GameMonstersGameBoySampleCode 11_background_collision (.c and .h files)
