@@ -4,3 +4,4 @@ This directory contains the following tests:
 02 - [tbd - unfinished] testing compatibility of 01 test outputs with .gb compilation
 03 - testing usability of png2gbtiles executable on ship.png and on example.png [failed to execute - installation issue?]
 04 - testing .gb output of GameMonstersGameBoySampleCode 11_background_collision (.c and .h files)
+05 - testing map and sprite (works! But still some missing tiles in .gb output, possible buffer overflow due to compilation)
