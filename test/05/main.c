@@ -2,8 +2,10 @@
 //#include <gb/hardware.h>
 //#include <rand.h>
 #include <stdio.h>
+//#include "admiral_benbow_outside.h"
 #include "admiral_benbow_outside_62_tiles.h"
-#include "all_tiles.h"
+//#include "all_tiles.h"
+#include "all_tiles_62_tiles.h"
 
 // ******** temp (testing different data) *********
 //#include "windowmap.c"
@@ -25,7 +27,7 @@ void performantdelay(uint8_t numloops){
 }
 void init(){
 
-    set_bkg_data(0,7,all_tiles); // 7 tiles into background
+    set_bkg_data(0,62,all_tiles_62_tiles); // 7 tiles into background
     set_bkg_tiles(0,0,90,90,adm_ben_out_62_tiles); // coords (0,0) and 90 tiles wide, 90 tiles high
     //set_win_tiles(0,0,5,1,windowmap);
 
